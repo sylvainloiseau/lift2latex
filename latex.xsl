@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
+ | % 20250214 : attention, les commandes semblent définies dans style.xsl et non plus ici
+-->
+
+<!--
  | % Sources :
  | % https://www.overleaf.com/latex/examples/dictionary-template/pdztbwjxrpmz
  | % https://github.com/paolobrasolin/tex-dicISCZ/blob/master/preamble.tex
@@ -36,7 +40,9 @@
 \newcommand\latexsenseglossend{}
 \newcommand{\gloss}[1]{ `lang?: #1'}
 \newcommand{\glossen}[1]{ \textit{`#1'}}
+\newcommand{\glossfr}[1]{ \textit{`#1'}}
 \newcommand{\glosstpi}[1]{ (\textit{`#1'})}
+\newcommand{\glossgramfr}[1]{ \textsc{`#1'}}
 \newcommand{\glossgramen}[1]{ \textsc{`#1'}}
 \newcommand{\glossgramtpi}[1]{ (\textsc{`#1'})}
 

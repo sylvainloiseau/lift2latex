@@ -28,11 +28,13 @@
 	</xsl:for-each>
 	<xsl:call-template name="latex-endsection"/>
 	
+    <!--
     <xsl:for-each select="current-group()//sense[illustration]">
     <xsl:call-template name="make_illustration">
     <xsl:with-param name="sense" select="." />
     </xsl:call-template>    
     </xsl:for-each>
+    -->
 
 	</xsl:for-each-group>	
 

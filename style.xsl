@@ -60,8 +60,10 @@
 \newcommand\latexsenseglossend{}
 \newcommand{\gloss}[1]{ `lang?: #1'}
 \newcommand{\glossen}[1]{ \textit{`#1'}}
+\newcommand{\glossfr}[1]{ \textit{`#1'}}
 \newcommand{\glosstpi}[1]{ (\textit{`#1'})}
 \newcommand{\glossgramen}[1]{ \textsc{`#1'}}
+\newcommand{\glossgramfr}[1]{ \textsc{`#1'}}
 \newcommand{\glossgramtpi}[1]{ (\textsc{`#1'})}
 
 \newcommand\latexsensedomainstart{ $\diamond$\ } %\textbardbl
